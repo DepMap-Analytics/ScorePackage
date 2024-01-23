@@ -1,0 +1,17 @@
+Package: ScorePackage
+Type: Package
+Title: Prioritisation of therapeutic targets using single knockout CRISPR screens
+Version: 2.5.1
+Author: C. Pacini, F. Iorio
+Maintainer: Clare Pacini <cp16@sanger.ac.uk>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends:
+  igraph, doParallel, reshape2, radiant, data.table, limma, qvalue, diffusr, fitdistrplus, sn, sva,
+  splines, preprocessCore, matrixStats, car, pROC
